@@ -46,7 +46,7 @@ function excelToJson(excelFilePath, jsonFilePath) {
 }
 
 // Example usage:
-const excelFile = './XLSX/verifiedConvertToJson.xlsx'; // Replace with the path to your Excel file
-const jsonFile = 'output.json';   // Replace with the desired JSON output file path
+const excelFile = './XLSX/Input.xlsx'; // Replace with the path to your Excel file
+const jsonFile = 'Output.json';   // Replace with the desired JSON output file path
 
 excelToJson(excelFile, jsonFile);

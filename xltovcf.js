@@ -45,7 +45,7 @@ function xlsxToVcf(inputFile, outputFile) {
   console.log(`Conversion complete. VCF file saved as ${outputFile}`);
 }
 
-const inputFile = './XLSX/verifiedConvertToVcf.xlsx'; // Replace with your XLSX file path
-const outputFile = 'Verified1858.vcf'; // Replace with the desired name for the VCF file
+const inputFile = './XLSX/Input.xlsx'; // Replace with your XLSX file path
+const outputFile = 'Output.vcf'; // Replace with the desired name for the VCF file
 
 xlsxToVcf(inputFile, outputFile);
